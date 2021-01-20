@@ -4,7 +4,7 @@
 
   <groupId>sonar_test</groupId>
   <artifactId>com.sonar.maven</artifactId>
-  <version>0.0.1-snapshot</version>
+  <version>1.0</version>
   <packaging>jar</packaging>
 
   <name>com.sonar.maven</name>
@@ -29,11 +29,11 @@
   <distributionManagement>
     <snapshotRepository>
        <id>nexus</id>
-       <url>http://35.238.106.39:8083/nexus/content/repositories/snapshots</url>
+       <url>http://35.238.106.39:8081/nexus/content/repositories/snapshots</url>
     </snapshotRepository>
     <repository>
 <id>nexus</id>
-<url>http://35.238.106.39:8083/nexus/content/repositories/releases</url>
+<url>http://35.238.106.39:8081/nexus/content/repositories/releases</url>
     </repository>
   </distributionManagement>
 
